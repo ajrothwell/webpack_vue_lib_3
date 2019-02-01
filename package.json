@@ -1,0 +1,23 @@
+{
+  "name": "rollup-test",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "module": "./src/components",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx rollup --config rollup.config.js",
+    "dev": "yarn build -w"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "rollup": "^1.0.1",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-vue": "^4.3.2",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
